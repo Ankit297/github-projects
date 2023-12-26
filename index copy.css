@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    background-image: url(img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   display: flex;
+   background-attachment: fixed;
+   
+}
+.text{
+    color: rgb(74, 204, 236);
+    margin-top:2% ;
+    margin-left: 20%;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    position: absolute;
+   
+   
+}
+.tex{
+    color: rgb(248, 239, 82);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 20%;
+    margin-top:100px;
+    position:absolute;
+}
+.heading{
+ 
+    background-color: rgb(33, 30, 30);
+    height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text1{
+    color: wheat;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: 'lato', sans-serif;
+
+}
+/* Section 2......................... */
+.block{
+    background-color: rgb(249, 237, 237);
+    height: 80vh;
+    display: flex;
+   justify-content:space-around;
+   padding : 40px 20px;
+}
+
+.blockp {
+    position: relative;
+    height:70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.block1 {
+    background-image: url(img1.jpg); 
+}
+
+ .block2{
+    background-image: url(img2.jpg);
+   
+}
+.block3{
+    background-image: url(img1.jpg);
+   
+} 
+.block1,.block2,.block3 {
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 53%;
+    width : 100%;
+    position: absolute;
+}
+
+.p1{
+    position: absolute;
+    color : rgb(16, 15, 15);
+    bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    
+}
+
+.head{
+    color: rgb(29, 28, 28);
+    position: absolute;
+    font-family: 'lato', sans-serif;
+    top: 55%;
+    left: 30%;
+    box-shadow: 0.1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+
+#St1{
+    background-image: url(img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 60vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-attachment: fixed;
+     
+  }
+  #Stage3{
+      color: rgb(196, 206, 62);
+      letter-spacing: 35px;
+    
+  }
+  .div1{
+      background-color: rgb(55, 49, 49);
+      padding: 15px;
+      
+      border-radius: 10px;
+      
+  }
+  
+  
+  #Stage-h1{
+      font-size: 30px;
+      background-color: rgb(39, 36, 36);
+      color: rgb(136, 176, 210);
+      padding: 20px;
+      letter-spacing: 10px;
+      text-align: center;
+      
+  }
+  .div{
+    background-color: rgb(36, 33, 33);
+    height: 60px;
+    width: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h5{
+    color: rgb(156, 194, 74);
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    letter-spacing: 5px;
+    
+  }
+ 

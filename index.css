@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    background-image: url(imgg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   background-attachment: fixed;
+   
+}
+.text{
+    color: rgb(74, 204, 236);
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    position: absolute;
+    font-size: 80px;
+}
+  .text:hover{
+     font-size: 90px;
+     transition:  font-size 0.2s ease-in-out;
+     cursor:pointer;
+  }
+  
+
+.tex{
+    color: rgb(248, 239, 82);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+   
+    margin-top:150px;
+    position:absolute;
+    letter-spacing: 20px;
+}
+.heading{
+ 
+    background-color: rgb(33, 30, 30);
+    height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text1{
+    color: wheat;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: 'lato', sans-serif;
+
+}
+/* Section 2......................... */
+.block{
+    background-color: rgb(249, 237, 237);
+    height: 80vh;
+    display: flex;
+   justify-content:space-around;
+   padding : 40px 20px;
+}
+
+.blockp {
+    position: relative;
+    height:70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+}
+.blockp:hover{
+    box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s ease-in-out;
+}
+.block1 {
+    background-image: url(img1.jpg); 
+}
+
+ .block2{
+    background-image: url(img2.jpg);
+   
+}
+.block3{
+    background-image: url(img1.jpg);
+   
+} 
+.block1,.block2,.block3 {
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 53%;
+    width : 100%;
+    position: absolute;
+}
+
+.p1{
+    position: absolute;
+    color : rgb(16, 15, 15);
+    bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    
+}
+
+.head{
+    color: rgb(29, 28, 28);
+    position: absolute;
+    font-family: 'lato', sans-serif;
+    top: 55%;
+    left: 30%;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.head:hover{
+    box-shadow: 0.1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+#St1{
+    background-image: url(img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 60vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-attachment: fixed;
+     
+  }
+  #Stage3{
+      color: rgb(196, 206, 62);
+      letter-spacing: 35px;
+    
+  }
+  .div1{
+      background-color: rgb(55, 49, 49);
+      padding: 15px;
+      
+      border-radius: 10px;
+      
+  }
+  
+  
+  #Stage-h1{
+      font-size: 30px;
+      background-color: rgb(39, 36, 36);
+      color: rgb(136, 176, 210);
+      padding: 20px;
+      letter-spacing: 10px;
+      text-align: center;
+      
+  }
+  .div{
+    background-color: rgb(36, 33, 33);
+    height: 60px;
+    width: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h5{
+    color: rgb(156, 194, 74);
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    letter-spacing: 5px;
+    
+  }
+ 
+
+ 
+  @media screen and (max-width: 1000px) {
+    .text{
+    transition: none;
+    font-size : 50px;
+    margin-top: 10px;
+    }
+    .tex {
+        font-size : 20px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+        color: #ffffff;
+        
+    }
+    .text,.tex {
+        text-shadow: 3px 3px 0px rgba(255, 0, 0, 0.7);
+       
+    }
+    .hero {
+        height : 50vh;
+        background-image: url('fk2.jpg');
+        background-position-y: -30px;
+        background-attachment: fixed;
+    }
+
+    .heading {
+        padding-left: 3%;
+        height : 8vh;
+        opacity:60%;
+    }
+    .text1 {
+        font-size : 18px;
+        text-align: center;
+        padding : 10px;
+    }
+    .p1 {
+        font-size: 5.7px;
+        line-height: normal;
+        color : #ffffff;
+    }
+    .block {
+        height : 50vh;
+        padding : 20px 10px;
+        justify-content: space-around;
+        background-image: url('fk3.jpg');
+        background-attachment: fixed;
+    }
+    .blockp {
+        height: 40vh;
+        width: 20vw;
+    }
+    .head {
+        color : #ffffff;
+        font-size: 10px;
+        left : 7%;
+        text-align: center;
+    }
+
+    #Stage3 {
+font-size : 24px;
+letter-spacing: 5px;
+    }
+
+    #Stage-h1 {
+        background-color: #ffffff;
+        font-size: medium;
+        padding : 13px;
+    }
+    
+  }
+
